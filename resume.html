@@ -196,10 +196,10 @@
 
 <body>
     <div class="nav">
-        <button id="cmd" onclick="printpdf()" class="navbtn"><i class="fa-solid fa-download fa-bounce"></i></button>
+        <button id="cmd" onclick="printpdf()" class="navbtn"><i class="fas fa-download fa-bounce"></i></button>
         <form>
             <input type="hidden" id="custinfo" name="custinfo">
-            <button class="navbtn"><i class="fa-solid fa-floppy-disk fa-shake"></i></button>
+            <button class="navbtn"><i class="fas fa-save fa-shake"></i></button>
         </form>
         <button class="navbtn" href="index.html"><i class="fa-solid fa-home fa-beat-fade"></i></button>
     </div>
@@ -533,6 +533,9 @@
             info.value = value1;
         }
     </script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
 </body>
 
 </html>
