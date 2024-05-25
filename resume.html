@@ -225,9 +225,7 @@
                     <span class="title">SKILLS</span><br><br>
                     <div>
                         <div class="skill">
-                            <span><input type="checkbox" class="input-checkbox"></span>
-                            <span><i class="fas fa-chevron-circle-right"></i></span>&nbsp&nbsp&nbsp
-                            <span contenteditable="true">write your skill here</span>
+                            <span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">write your skill here</span>
                         </div>
                         <div id="skills"></div>
                         <button id="skilladd" type="button" class="btn btn-success" onclick="addskill()"><i class="fas fa-plus-circle"></i> Skill</button>&nbsp
@@ -236,9 +234,7 @@
                     <br><br><span class="title">LANGUAGES</span><br><br>
                     <div>
                         <div class="language">
-                            <span><input type="checkbox" class="input-checkbox"></span>
-                            <span contenteditable="true">LANGNAME</span>&nbsp-&nbsp
-                            <span contenteditable="true">level u know</span>
+                            <span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">LANGNAME</span>
                         </div>
                         <div id="languages"></div>
                         <button id="langadd" type="button" class="btn btn-success" onclick="addLang()"><i class="fas fa-plus-circle"></i> Language</button>&nbsp
@@ -249,8 +245,7 @@
                     <br><br>
                     <div>
                         <div class="achieve">
-                            <span><input type="checkbox" class="input-checkbox"></span>
-                            <span contenteditable="true">Write your achievement</span>
+                            <span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write your achievement</span>
                         </div>
                         <div id="achievement"></div>
                         <button id="achadd" type="button" class="btn btn-success" onclick="addAch()"><i class="fas fa-plus-circle"></i> Achievement</button>&nbsp
@@ -260,8 +255,7 @@
                     <span class="title">INTERESTS</span><br><br>
                     <div>
                         <div class="achieve">
-                            <span><input type="checkbox" class="input-checkbox"></span>
-                            <span contenteditable="true">Write interest</span></div>
+                            <span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write interest</span></div>
                         <div id="interest"></div>
                         <button id="Intadd" type="button" class="btn btn-success" onclick="addInt()"><i class="fas fa-plus-circle"></i> Interest</button>&nbsp
                         <button id="Intrem" type="button" class="btn btn-danger" onclick="remInt(event)"><i class="fas fa-minus-circle"></i> Interest</button>
@@ -282,8 +276,7 @@
                     <div>
                         <div id="education">
                             <div class="edublock">
-                                <span><input type="checkbox" class="input-checkbox"></span>
-                                <span class="education-head" contenteditable="true">YOUR DEGREE</span>
+                                <span><input type="checkbox" class="input-checkbox"></span><span class="education-head" contenteditable="true">YOUR DEGREE</span>
                                 <div>
                                     <span contenteditable="true">Institute name</span> - <span contenteditable="true">Passing Year</span>
                                 </div>
@@ -295,11 +288,9 @@
                     <br><br>
                     <div class="new-section-div">
                         <div>
-                            <span><input type="checkbox" class="input-checkbox"></span>
-                            <span class="title" contenteditable="true">NEW SECTION</span><br><br>
+                            <span><input type="checkbox" class="input-checkbox"></span><span class="title" contenteditable="true">NEW SECTION</span><br><br>
                             <div contenteditable="true">
-                                This is the description part of your new section. 
-                                Try to stay within limit and write something which has less than 400 characters. 
+                                This is the description part of your new section. Try to stay within limit and write something which has less than 400 characters. 
                                 The spaces and symbols you use will also be included so use them for an indentation effect.
                             </div>
                         </div> 
@@ -381,7 +372,7 @@
         function addskill() {
             const head = document.createElement('div');
             document.getElementById("skills").appendChild(head);
-            head.innerHTML = ('<div class="skill"><span><input type="checkbox" class="input-checkbox"></span><span><i class="fas fa-chevron-circle-right"></i></span>&nbsp&nbsp&nbsp<span contenteditable="true">write your skill here</span></div>');
+            head.innerHTML = ('<div class="skill"><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">write your skill here</span></div>');
             saveresume();
         }
 
