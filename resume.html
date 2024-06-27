@@ -203,7 +203,7 @@
             <input type="hidden" id="custinfo" name="custinfo">
             <button class="navbtn"><i class="fas fa-save fa-shake"></i></button>
         </form>
-        <button class="navbtn" href="index.html"><i class="fa-solid fa-home fa-beat-fade"></i></button>
+        <button id="homeBtn" class="navbtn" href="index.html"><i class="fa-solid fa-home fa-beat-fade"></i></button>
     </div>
     <div class="resume" id="resume">
         <section id="print">
@@ -548,6 +548,15 @@
             var info = document.getElementById("custinfo");
             info.value = value1;
         }
+
+        // Function to navigate to home page
+        function navigateToHome() {
+            window.location.href = 'index.html'; // Replace 'index.html' with your home page URL
+        }
+
+        // Add event listener to the home button
+        document.getElementById('homeBtn').addEventListener('click', navigateToHome);
+
     </script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
