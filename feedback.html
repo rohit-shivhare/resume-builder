@@ -23,6 +23,12 @@
             font-family: sans-serif;
             margin-bottom: 50px;
         }
+        span {
+            color: #40ff;
+            align-items: center;
+            text-align: center;
+            margin-top: 1.5em;
+        }
     </style>
     <title>Feedback</title>
 </head>
@@ -69,7 +75,7 @@
             </form>
         </div>
     </nav>
-    <form class="container">
+    <form class="container" name="submit-to-google-sheet">
         <div class="box1">
         </div>
         <div class="box2">
@@ -81,52 +87,77 @@
         <br>
         <div class="box3">
             <label for="Email">Email <i class="fa-solid fa-asterisk fa-2xs" style="color: #d71919;"></i></label><br>
-            <input type="email" placeholder="Your Answer" required>
+            <input type="email" placeholder="Your Answer" required oninvalid="this.setCustomValidity('Please enter a valid Email')" oninput="this.setCustomValidity('')">
         </div>
         <hr>
         <div class="box4">
             <label for="name">Name <i class="fa-solid fa-asterisk fa-2xs" style="color: #d71919;"></i></label><br>
-            <input type="text" placeholder="Your Answer" required>
+            <input type="text" placeholder="Your Answer" required oninvalid="this.setCustomValidity('Please enter your Name')" oninput="this.setCustomValidity('')">
         </div>
         <hr>
         <div class="box5">
             <label for="feedback-type">Feedback Type <i class="fa-solid fa-asterisk fa-2xs"
                     style="color: #d71919;"></i></label>
             <br>
-            <input type="radio" id="option1" name="radio-group" value="option1">
+            <input type="radio" id="option1" name="radio-group" value="Comments">
             <label for="option1">Comments</label>
             <br>
-            <input type="radio" id="option2" name="radio-group" value="option2">
+            <input type="radio" id="option2" name="radio-group" value="Question">
             <label for="option2">Questions</label>
             <br>
-            <input type="radio" id="option3" name="radio-group" value="option3">
+            <input type="radio" id="option3" name="radio-group" value="Bug-Reports">
             <label for="option3">Bug Reports</label>
             <br>
-            <input type="radio" id="option4" name="radio-group" value="option4">
+            <input type="radio" id="option4" name="radio-group" value="Feature-Request">
             <label for="option4">Feature Request</label>
+            <br>
+            <input type="radio" id="option5" name="radio-group" value="Other">
+            <label for="option4">Other</label>
         </div>
         <hr>
         <div class="box6">
             <label for="feedback">Feedback <i class="fa-solid fa-asterisk fa-2xs" style="color: #d71919;"></i></label><br>
-            <textarea class="feedback" name="feedback" cols="100"></textarea>
+            <textarea class="feedback" name="feedback"></textarea>
         </div>
         <hr>
         <div class="box7">
             <label for="Suggestion">Suggestion for improvment</label><br>
-            <textarea class="suggestion" name="suggestion" cols="100"></textarea>
+            <textarea class="suggestion" name="suggestion" required oninvalid="this.setCustomValidity('Please enter you message')" oninput="this.setCustomValidity('')"></textarea>
         </div>
         <hr>
         <button type="submit" class="btn btn-primary">Submit</button>
         <button type="reset" class="btn btn-secondary float-right">Clear</button>
+        <span id="msg"></span>
         
     </form>
-
+  
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyTMBK1WMQsfLVLnZ3nq3IY97NTvWdNd72sEpYrE5pjBqL-5VyjAYXIF6EXCdr6IeTzUg/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById('msg');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(Response => {
+                msg.innerHTML = "Thank You for your Feedback!";
+                setTimeout(function() {
+                    msg.innerHTML = "";
+
+                }, 5000)
+                form.reset();
+
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+       
+    </script>
 </body>
 
 </html>
