@@ -30,6 +30,20 @@
             text-align: center;
             margin-top: 1.5em;
         }
+
+        #underline-input {
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            padding: 5px 0;
+            width: 100%;
+            /* max-width: 500px ; */
+            box-sizing: border-box;
+        }
+
+        #underline-input:focus {
+            border-bottom: 2px solid blue;
+        }
     </style>
     <title>Feedback</title>
 </head>
@@ -90,13 +104,13 @@
         <br>
         <div class="box3">
             <label for="Email">Email <i class="fa-solid fa-asterisk fa-2xs" style="color: #d71919;"></i></label><br>
-            <input type="email" placeholder="Your Answer" required
+            <input id="underline-input" type="email" placeholder="Your Answer" required
                 oninvalid="this.setCustomValidity('Please enter a valid Email')" oninput="this.setCustomValidity('')">
         </div>
         <hr>
         <div class="box4">
             <label for="name">Name <i class="fa-solid fa-asterisk fa-2xs" style="color: #d71919;"></i></label><br>
-            <input type="text" placeholder="Your Answer" required
+            <input id="underline-input" type="text" placeholder="Your Answer" required
                 oninvalid="this.setCustomValidity('Please enter your Name')" oninput="this.setCustomValidity('')">
         </div>
         <hr>
@@ -123,12 +137,12 @@
         <div class="box6">
             <label for="feedback">Feedback <i class="fa-solid fa-asterisk fa-2xs"
                     style="color: #d71919;"></i></label><br>
-            <textarea class="feedback" name="feedback"></textarea>
+            <textarea class="feedback" id="underline-input" name="feedback"></textarea>
         </div>
         <hr>
         <div class="box7">
             <label for="Suggestion">Suggestion for improvment</label><br>
-            <textarea class="suggestion" name="suggestion" required
+            <textarea id="underline-input" class="suggestion" name="suggestion" required
                 oninvalid="this.setCustomValidity('Please enter you message')"
                 oninput="this.setCustomValidity('')"></textarea>
         </div>
