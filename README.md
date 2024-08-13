@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **Frontend Development**
 
-- 🌱 I’m currently learning **Frameworks, Web Development Course**
+- 🌱 I’m currently learning **Frameworks, Web Development and Full Stack**
 
 - 👨‍💻 All of my projects are available at [https://github.com/rohittt1012](https://github.com/rohittt1012)
 
