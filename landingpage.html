@@ -57,7 +57,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resume Builder</a>
+                    <a class="nav-link" href="#" id="popupLink">Resume Builder</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -450,6 +450,13 @@
     -->
     <!-- Chatboot  -->
     <script src="//code.tidio.co/tlpye6oqkuagyvytqykbsukbkko6ijrh.js" async></script>
+
+    <script>
+        document.getElementById("popupLink").addEventListener("click", function(event){
+            event.preventDefault();  // Prevent the default action of the link
+            alert("You need to Login first!");
+        });
+    </script>
 
 </body>
 
