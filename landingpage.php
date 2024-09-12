@@ -24,7 +24,7 @@
         }
 
         .footer {
-            background-color: rgb(52, 58, 64);  
+            background-color: rgb(52, 58, 64);
         }
 
         .text {
@@ -137,29 +137,29 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="addon-wrapping">@</span>
                             </div>
-                            <input type="text" class="form-control" name="Username" placeholder="Username" aria-label="Username"
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
                                 aria-describedby="addon-wrapping">
                         </div>
                         <div class="form-group mb-4">
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" name="fname" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="First name">
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" name="lname" placeholder="Last name">
+                                    <input type="text" class="form-control" placeholder="Last name">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" name="email" id="exampleInputEmail1"
+                            <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+                            <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
                         <!-- <div class="form-group">
                             <label for="cexampleInputPassword1">Confirm Password</label>
