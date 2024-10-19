@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/rohittt1012](https://github.com/rohittt1012)
 
-- 💬 Ask me about **C/C++, MySQL, HTML, CSS**
+- 💬 Ask me about **C/C++, MySQL, HTML, CSS, JavaScript**
 
 - 📫 How to reach me **rshivhare7405@gmail.com**
 
