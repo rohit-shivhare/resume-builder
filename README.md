@@ -18,7 +18,7 @@ This is a free, easy-to-use Resume Builder web application that helps users crea
 ## Demo Video
 
 <video width="600" autoplay loop muted>
-  <source src="path/to/your/local/video.mp4" type="video/mp4">
+  <source src="rb-recording.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
