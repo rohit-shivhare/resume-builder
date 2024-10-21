@@ -17,10 +17,7 @@ This is a free, easy-to-use Resume Builder web application that helps users crea
 
 ## Demo Video
 
-<video width="600" autoplay loop muted>
-  <source src="path/to/your/local/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Resume Builder Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/0sHujn36BRo)
 
 _A short video demonstration of the Resume Builder in action._
 
@@ -31,8 +28,8 @@ _A short video demonstration of the Resume Builder in action._
 3. Choose your preferred template.
 4. Preview your resume in real time.
 5. Export your resume as a PDF or import an existing one for further editing.
-6. Leave feedback using the [Feedback Page](https://docs.google.com/forms/d/e/1FAIpQLSczEWWsUgnRGyASy-ME_oZ1x_xiX-QBLcCLqoejz3gaKIBh3A/closedform?embedded=true).
-7. Contact us for queries using the [Contact Us Page](https://rohittt1012.github.io/resume-builder/contact.html).
+6. Leave feedback using the [Feedback Page](https://rohittt1012.github.io/resume-builder/feedback).
+7. Contact us for queries using the [Contact Us Page](https://rohittt1012.github.io/resume-builder/contact-us).
 
 ## Technologies Used
 
@@ -44,4 +41,4 @@ _A short video demonstration of the Resume Builder in action._
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rohittt1012/resume-builder.git
+   git clone https://github.com/yourusername/resume-builder.git
