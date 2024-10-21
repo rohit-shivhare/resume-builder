@@ -31,7 +31,7 @@ _A short video demonstration of the Resume Builder in action._
 3. Choose your preferred template.
 4. Preview your resume in real time.
 5. Export your resume as a PDF or import an existing one for further editing.
-6. Leave feedback using the [Feedback Page](https://rohittt1012.github.io/resume-builder/feedback.html).
+6. Leave feedback using the [Feedback Page](https://docs.google.com/forms/d/e/1FAIpQLSczEWWsUgnRGyASy-ME_oZ1x_xiX-QBLcCLqoejz3gaKIBh3A/closedform?embedded=true).
 7. Contact us for queries using the [Contact Us Page](https://rohittt1012.github.io/resume-builder/contact.html).
 
 ## Technologies Used
