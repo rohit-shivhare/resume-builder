@@ -1,33 +1,47 @@
-<h1 align="center">Hi 👋, I'm Rohit</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+# Resume Builder
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rohittt1012&label=Profile%20views&color=0e75b6&style=flat" alt="rohittt1012" /> </p>
+**Live Project**: [Resume Builder](https://rohittt1012.github.io/resume-builder/)
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rohittt1012" alt="rohittt1012" /></a> </p>
+This is a free, easy-to-use Resume Builder web application that helps users create professional resumes. The app supports both importing and exporting resumes, making it convenient to work on your resume offline and online.
 
-- 🔭 I’m currently working on **Frontend Development**
+## Key Features
 
-- 🌱 I’m currently learning **Frameworks, Web Development and Full Stack**
+- **Free Resume Creation**: Build a resume for free without any subscriptions or charges.
+- **Import & Export**: Users can import an existing resume in various formats and export the final resume once it’s ready.
+- **Customizable Templates**: Choose from multiple professional templates to make your resume stand out.
+- **Live Preview**: See changes in real-time as you edit your resume.
+- **User-Friendly Interface**: Designed for ease of use, even for beginners.
+- **Responsive Design**: Fully responsive for mobile and desktop use.
+- **Feedback Page**: Users can leave feedback on their experience using the app.
+- **Contact Us Page**: A dedicated page for users to contact the developer or support.
 
-- 👨‍💻 All of my projects are available at [https://github.com/rohittt1012](https://github.com/rohittt1012)
+## Demo Video
 
-- 💬 Ask me about **C/C++, MySQL, HTML, CSS, JavaScript**
+<video width="600" autoplay loop muted>
+  <source src="path/to/your/local/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-- 📫 How to reach me **rshivhare7405@gmail.com**
+_A short video demonstration of the Resume Builder in action._
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/rohittt1012" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="rohittt1012" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/rohit-shivhare" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rohit-shivhare" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/rshivhare7405" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="rshivhare7405" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/rohittt1012" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="rohittt1012" height="30" width="40" /></a>
-</p>
+## How to Use
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> </p>
+1. Visit the [Live Website](https://rohittt1012.github.io/resume-builder/).
+2. Enter your personal, educational, and professional details.
+3. Choose your preferred template.
+4. Preview your resume in real time.
+5. Export your resume as a PDF or import an existing one for further editing.
+6. Leave feedback using the [Feedback Page](https://rohittt1012.github.io/resume-builder/feedback.html).
+7. Contact us for queries using the [Contact Us Page](https://rohittt1012.github.io/resume-builder/contact.html).
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rohittt1012&show_icons=true&locale=en&layout=compact" alt="rohittt1012" /></p>
+## Technologies Used
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rohittt1012&show_icons=true&locale=en" alt="rohittt1012" /></p>
+- **HTML5**
+- **CSS3**
+- **JavaScript**
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rohittt1012&" alt="rohittt1012" /></p>
+## How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rohittt1012/resume-builder.git
